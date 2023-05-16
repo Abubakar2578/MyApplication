@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
 
 
     public void dialCall(View v){
-        String contact = "tel:+923004042213";
+        String contact = "tel:+923456780578";
 
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse(contact));
